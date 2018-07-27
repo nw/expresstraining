@@ -1,0 +1,9 @@
+extend layout
+
+block body
+  form(action="/files/upload" method="post" enctype="multipart/form-data")
+    .form-group
+        label(for="inputFile") File input
+        input#inputFile(type="file", name="file")
+        p.help-block Limited to 10mb
+    button(type="submit") Submit

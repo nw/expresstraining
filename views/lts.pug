@@ -1,0 +1,9 @@
+extend layout
+
+block body
+  .row
+    each version in releases
+      .col-sm-4
+        h4= version.version
+        .progress
+          .progress-bar(style=`width:${version.value}%`)= version.value + '%'
