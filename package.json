@@ -7,7 +7,6 @@
     "start": "nodemon app.js",
     "test": "mocha test"
   },
-
   "author": "Nathan White <nw@nwhite.net> (https://github.com/nw",
   "license": "MIT",
   "dependencies": {
@@ -27,6 +26,7 @@
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "nock": "^9.4.1",
+    "nodemon": "^1.18.3",
     "proxyquire": "^2.0.1",
     "supertest": "^3.1.0"
   }
